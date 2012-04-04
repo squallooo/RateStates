@@ -11,6 +11,8 @@
 @interface RateStatesData : NSObject {
     NSString *_title;
     float _rating;
+    
+    
 }
 @property (copy) NSString *title;
 @property  float rating;
