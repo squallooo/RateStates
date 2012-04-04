@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6778A737152B47FD00D734A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6778A736152B47FD00D734A3 /* UIKit.framework */; };
+		6778A739152B47FD00D734A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6778A738152B47FD00D734A3 /* Foundation.framework */; };
+		6778A73B152B47FD00D734A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6778A73A152B47FD00D734A3 /* CoreGraphics.framework */; };
+		6778A741152B47FD00D734A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6778A73F152B47FD00D734A3 /* InfoPlist.strings */; };
+		6778A743152B47FD00D734A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778A742152B47FD00D734A3 /* main.m */; };
+		6778A747152B47FD00D734A3 /* RateStatesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778A746152B47FD00D734A3 /* RateStatesAppDelegate.m */; };
+		6778A74A152B47FD00D734A3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6778A748152B47FD00D734A3 /* MainWindow.xib */; };
+		6778A74D152B47FD00D734A3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778A74C152B47FD00D734A3 /* RootViewController.m */; };
+		6778A750152B47FD00D734A3 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6778A74E152B47FD00D734A3 /* RootViewController.xib */; };
+		6778A758152B47FD00D734A3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6778A757152B47FD00D734A3 /* SenTestingKit.framework */; };
+		6778A759152B47FD00D734A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6778A736152B47FD00D734A3 /* UIKit.framework */; };
+		6778A75A152B47FD00D734A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6778A738152B47FD00D734A3 /* Foundation.framework */; };
+		6778A75B152B47FD00D734A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6778A73A152B47FD00D734A3 /* CoreGraphics.framework */; };
+		6778A763152B47FD00D734A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6778A761152B47FD00D734A3 /* InfoPlist.strings */; };
+		6778A765152B47FD00D734A3 /* RateStatesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 6778A764152B47FD00D734A3 /* RateStatesTests.h */; };
+		6778A767152B47FD00D734A3 /* RateStatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778A766152B47FD00D734A3 /* RateStatesTests.m */; };
+		6778A775152B489B00D734A3 /* RateStatesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778A774152B489B00D734A3 /* RateStatesData.m */; };
+		6778A778152B4A3200D734A3 /* RateStatesDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778A777152B4A3200D734A3 /* RateStatesDoc.m */; };
+		6778A78E152B63C700D734A3 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6778A78A152B63C700D734A3 /* centipede.jpg */; };
+		6778A78F152B63C700D734A3 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6778A78B152B63C700D734A3 /* centipedeThumb.jpg */; };
+		6778A790152B63C700D734A3 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6778A78C152B63C700D734A3 /* potatoBug.jpg */; };
+		6778A791152B63C700D734A3 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6778A78D152B63C700D734A3 /* potatoBugThumb.jpg */; };
+		6778A796152B6AE600D734A3 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778A794152B6AE600D734A3 /* EditViewController.m */; };
+		6778A799152B6E0F00D734A3 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6778A798152B6E0F00D734A3 /* EditViewController.xib */; };
+		6778A7A0152B79C200D734A3 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778A79F152B79C100D734A3 /* RateView.m */; };
+		67D9E7D1152C2FBA00E86AFB /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D9E7D0152C2FBA00E86AFB /* UIImageExtras.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6778A75C152B47FD00D734A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6778A729152B47FD00D734A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6778A731152B47FD00D734A3;
+			remoteInfo = RateStates;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6778A732152B47FD00D734A3 /* RateStates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateStates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6778A736152B47FD00D734A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6778A738152B47FD00D734A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6778A73A152B47FD00D734A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6778A73E152B47FD00D734A3 /* RateStates-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RateStates-Info.plist"; sourceTree = "<group>"; };
+		6778A740152B47FD00D734A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6778A742152B47FD00D734A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6778A744152B47FD00D734A3 /* RateStates-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RateStates-Prefix.pch"; sourceTree = "<group>"; };
+		6778A745152B47FD00D734A3 /* RateStatesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RateStatesAppDelegate.h; sourceTree = "<group>"; };
+		6778A746152B47FD00D734A3 /* RateStatesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RateStatesAppDelegate.m; sourceTree = "<group>"; };
+		6778A749152B47FD00D734A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6778A74B152B47FD00D734A3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		6778A74C152B47FD00D734A3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		6778A74F152B47FD00D734A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		6778A756152B47FD00D734A3 /* RateStatesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateStatesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6778A757152B47FD00D734A3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6778A760152B47FD00D734A3 /* RateStatesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RateStatesTests-Info.plist"; sourceTree = "<group>"; };
+		6778A762152B47FD00D734A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6778A764152B47FD00D734A3 /* RateStatesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RateStatesTests.h; sourceTree = "<group>"; };
+		6778A766152B47FD00D734A3 /* RateStatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RateStatesTests.m; sourceTree = "<group>"; };
+		6778A773152B489B00D734A3 /* RateStatesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateStatesData.h; sourceTree = SOURCE_ROOT; };
+		6778A774152B489B00D734A3 /* RateStatesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateStatesData.m; sourceTree = SOURCE_ROOT; };
+		6778A776152B4A3200D734A3 /* RateStatesDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateStatesDoc.h; sourceTree = "<group>"; };
+		6778A777152B4A3200D734A3 /* RateStatesDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateStatesDoc.m; sourceTree = "<group>"; };
+		6778A78A152B63C700D734A3 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		6778A78B152B63C700D734A3 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
+		6778A78C152B63C700D734A3 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		6778A78D152B63C700D734A3 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
+		6778A793152B6AE600D734A3 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		6778A794152B6AE600D734A3 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		6778A798152B6E0F00D734A3 /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+		6778A79E152B79C100D734A3 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
+		6778A79F152B79C100D734A3 /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		67D9E7CF152C2FBA00E86AFB /* UIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtras.h; sourceTree = "<group>"; };
+		67D9E7D0152C2FBA00E86AFB /* UIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtras.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6778A72F152B47FD00D734A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6778A737152B47FD00D734A3 /* UIKit.framework in Frameworks */,
+				6778A739152B47FD00D734A3 /* Foundation.framework in Frameworks */,
+				6778A73B152B47FD00D734A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6778A752152B47FD00D734A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6778A758152B47FD00D734A3 /* SenTestingKit.framework in Frameworks */,
+				6778A759152B47FD00D734A3 /* UIKit.framework in Frameworks */,
+				6778A75A152B47FD00D734A3 /* Foundation.framework in Frameworks */,
+				6778A75B152B47FD00D734A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6778A727152B47FD00D734A3 = {
+			isa = PBXGroup;
+			children = (
+				6778A73C152B47FD00D734A3 /* RateStates */,
+				6778A75E152B47FD00D734A3 /* RateStatesTests */,
+				6778A735152B47FD00D734A3 /* Frameworks */,
+				6778A733152B47FD00D734A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6778A733152B47FD00D734A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6778A732152B47FD00D734A3 /* RateStates.app */,
+				6778A756152B47FD00D734A3 /* RateStatesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6778A735152B47FD00D734A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6778A736152B47FD00D734A3 /* UIKit.framework */,
+				6778A738152B47FD00D734A3 /* Foundation.framework */,
+				6778A73A152B47FD00D734A3 /* CoreGraphics.framework */,
+				6778A757152B47FD00D734A3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6778A73C152B47FD00D734A3 /* RateStates */ = {
+			isa = PBXGroup;
+			children = (
+				6778A773152B489B00D734A3 /* RateStatesData.h */,
+				6778A774152B489B00D734A3 /* RateStatesData.m */,
+				6778A776152B4A3200D734A3 /* RateStatesDoc.h */,
+				6778A777152B4A3200D734A3 /* RateStatesDoc.m */,
+				67D9E7CF152C2FBA00E86AFB /* UIImageExtras.h */,
+				67D9E7D0152C2FBA00E86AFB /* UIImageExtras.m */,
+				6778A79E152B79C100D734A3 /* RateView.h */,
+				6778A79F152B79C100D734A3 /* RateView.m */,
+				6778A745152B47FD00D734A3 /* RateStatesAppDelegate.h */,
+				6778A746152B47FD00D734A3 /* RateStatesAppDelegate.m */,
+				6778A748152B47FD00D734A3 /* MainWindow.xib */,
+				6778A793152B6AE600D734A3 /* EditViewController.h */,
+				6778A794152B6AE600D734A3 /* EditViewController.m */,
+				6778A798152B6E0F00D734A3 /* EditViewController.xib */,
+				6778A74B152B47FD00D734A3 /* RootViewController.h */,
+				6778A74C152B47FD00D734A3 /* RootViewController.m */,
+				6778A74E152B47FD00D734A3 /* RootViewController.xib */,
+				6778A792152B63D800D734A3 /* Resources */,
+				6778A73D152B47FD00D734A3 /* Supporting Files */,
+			);
+			path = RateStates;
+			sourceTree = "<group>";
+		};
+		6778A73D152B47FD00D734A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6778A73E152B47FD00D734A3 /* RateStates-Info.plist */,
+				6778A73F152B47FD00D734A3 /* InfoPlist.strings */,
+				6778A742152B47FD00D734A3 /* main.m */,
+				6778A744152B47FD00D734A3 /* RateStates-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6778A75E152B47FD00D734A3 /* RateStatesTests */ = {
+			isa = PBXGroup;
+			children = (
+				6778A764152B47FD00D734A3 /* RateStatesTests.h */,
+				6778A766152B47FD00D734A3 /* RateStatesTests.m */,
+				6778A75F152B47FD00D734A3 /* Supporting Files */,
+			);
+			path = RateStatesTests;
+			sourceTree = "<group>";
+		};
+		6778A75F152B47FD00D734A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6778A760152B47FD00D734A3 /* RateStatesTests-Info.plist */,
+				6778A761152B47FD00D734A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6778A792152B63D800D734A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6778A78D152B63C700D734A3 /* potatoBugThumb.jpg */,
+				6778A78C152B63C700D734A3 /* potatoBug.jpg */,
+				6778A78B152B63C700D734A3 /* centipedeThumb.jpg */,
+				6778A78A152B63C700D734A3 /* centipede.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6778A731152B47FD00D734A3 /* RateStates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6778A76A152B47FD00D734A3 /* Build configuration list for PBXNativeTarget "RateStates" */;
+			buildPhases = (
+				6778A72E152B47FD00D734A3 /* Sources */,
+				6778A72F152B47FD00D734A3 /* Frameworks */,
+				6778A730152B47FD00D734A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RateStates;
+			productName = RateStates;
+			productReference = 6778A732152B47FD00D734A3 /* RateStates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6778A755152B47FD00D734A3 /* RateStatesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6778A76D152B47FD00D734A3 /* Build configuration list for PBXNativeTarget "RateStatesTests" */;
+			buildPhases = (
+				6778A751152B47FD00D734A3 /* Sources */,
+				6778A752152B47FD00D734A3 /* Frameworks */,
+				6778A753152B47FD00D734A3 /* Resources */,
+				6778A754152B47FD00D734A3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6778A75D152B47FD00D734A3 /* PBXTargetDependency */,
+			);
+			name = RateStatesTests;
+			productName = RateStatesTests;
+			productReference = 6778A756152B47FD00D734A3 /* RateStatesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6778A729152B47FD00D734A3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6778A72C152B47FD00D734A3 /* Build configuration list for PBXProject "RateStates" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6778A727152B47FD00D734A3;
+			productRefGroup = 6778A733152B47FD00D734A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6778A731152B47FD00D734A3 /* RateStates */,
+				6778A755152B47FD00D734A3 /* RateStatesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6778A730152B47FD00D734A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6778A741152B47FD00D734A3 /* InfoPlist.strings in Resources */,
+				6778A74A152B47FD00D734A3 /* MainWindow.xib in Resources */,
+				6778A750152B47FD00D734A3 /* RootViewController.xib in Resources */,
+				6778A78E152B63C700D734A3 /* centipede.jpg in Resources */,
+				6778A78F152B63C700D734A3 /* centipedeThumb.jpg in Resources */,
+				6778A790152B63C700D734A3 /* potatoBug.jpg in Resources */,
+				6778A791152B63C700D734A3 /* potatoBugThumb.jpg in Resources */,
+				6778A799152B6E0F00D734A3 /* EditViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6778A753152B47FD00D734A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6778A763152B47FD00D734A3 /* InfoPlist.strings in Resources */,
+				6778A765152B47FD00D734A3 /* RateStatesTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6778A754152B47FD00D734A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6778A72E152B47FD00D734A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6778A743152B47FD00D734A3 /* main.m in Sources */,
+				6778A747152B47FD00D734A3 /* RateStatesAppDelegate.m in Sources */,
+				6778A74D152B47FD00D734A3 /* RootViewController.m in Sources */,
+				6778A775152B489B00D734A3 /* RateStatesData.m in Sources */,
+				6778A778152B4A3200D734A3 /* RateStatesDoc.m in Sources */,
+				6778A796152B6AE600D734A3 /* EditViewController.m in Sources */,
+				6778A7A0152B79C200D734A3 /* RateView.m in Sources */,
+				67D9E7D1152C2FBA00E86AFB /* UIImageExtras.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6778A751152B47FD00D734A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6778A767152B47FD00D734A3 /* RateStatesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6778A75D152B47FD00D734A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6778A731152B47FD00D734A3 /* RateStates */;
+			targetProxy = 6778A75C152B47FD00D734A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6778A73F152B47FD00D734A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6778A740152B47FD00D734A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6778A748152B47FD00D734A3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6778A749152B47FD00D734A3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6778A74E152B47FD00D734A3 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6778A74F152B47FD00D734A3 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		6778A761152B47FD00D734A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6778A762152B47FD00D734A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6778A768152B47FD00D734A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6778A769152B47FD00D734A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6778A76B152B47FD00D734A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RateStates/RateStates-Prefix.pch";
+				INFOPLIST_FILE = "RateStates/RateStates-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6778A76C152B47FD00D734A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RateStates/RateStates-Prefix.pch";
+				INFOPLIST_FILE = "RateStates/RateStates-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6778A76E152B47FD00D734A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RateStates.app/RateStates";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RateStates/RateStates-Prefix.pch";
+				INFOPLIST_FILE = "RateStatesTests/RateStatesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6778A76F152B47FD00D734A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RateStates.app/RateStates";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RateStates/RateStates-Prefix.pch";
+				INFOPLIST_FILE = "RateStatesTests/RateStatesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6778A72C152B47FD00D734A3 /* Build configuration list for PBXProject "RateStates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6778A768152B47FD00D734A3 /* Debug */,
+				6778A769152B47FD00D734A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6778A76A152B47FD00D734A3 /* Build configuration list for PBXNativeTarget "RateStates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6778A76B152B47FD00D734A3 /* Debug */,
+				6778A76C152B47FD00D734A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6778A76D152B47FD00D734A3 /* Build configuration list for PBXNativeTarget "RateStatesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6778A76E152B47FD00D734A3 /* Debug */,
+				6778A76F152B47FD00D734A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6778A729152B47FD00D734A3 /* Project object */;
+}
