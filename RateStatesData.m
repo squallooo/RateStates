@@ -24,5 +24,21 @@
     _title = nil;
     [super dealloc];
 }
+#pragma mark NSCoding
+
+#define kTitleKey	@"Title"
+#define kRatingKey	@"Rating"
+
+- (void) encodeWithCoder:(NSCoder *)encoder {
+	[encoder encodeObject:_title forKey:kTitleKey];
+	[encoder encodeFloat:_rating forKey:kRatingKey];
+}
+
+- (id)initWithCoder:(NSCoder *)decoder {
+	NSString *title = [decoder decodeObjectForKey:kTitleKey];
+	float rating = [decoder decodeFloatForKey:kRatingKey];
+	return [self initWithTitle:title rating:rating];
+}
+
 
 @end

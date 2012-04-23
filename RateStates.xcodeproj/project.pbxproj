@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		677716C3152ED290009C7BAB /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 677716C2152ED290009C7BAB /* DSActivityView.m */; };
 		6778A737152B47FD00D734A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6778A736152B47FD00D734A3 /* UIKit.framework */; };
 		6778A739152B47FD00D734A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6778A738152B47FD00D734A3 /* Foundation.framework */; };
 		6778A73B152B47FD00D734A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6778A73A152B47FD00D734A3 /* CoreGraphics.framework */; };
@@ -25,13 +26,12 @@
 		6778A767152B47FD00D734A3 /* RateStatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778A766152B47FD00D734A3 /* RateStatesTests.m */; };
 		6778A775152B489B00D734A3 /* RateStatesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778A774152B489B00D734A3 /* RateStatesData.m */; };
 		6778A778152B4A3200D734A3 /* RateStatesDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778A777152B4A3200D734A3 /* RateStatesDoc.m */; };
-		6778A78E152B63C700D734A3 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6778A78A152B63C700D734A3 /* centipede.jpg */; };
-		6778A78F152B63C700D734A3 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6778A78B152B63C700D734A3 /* centipedeThumb.jpg */; };
-		6778A790152B63C700D734A3 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6778A78C152B63C700D734A3 /* potatoBug.jpg */; };
-		6778A791152B63C700D734A3 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6778A78D152B63C700D734A3 /* potatoBugThumb.jpg */; };
-		6778A796152B6AE600D734A3 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778A794152B6AE600D734A3 /* EditViewController.m */; };
 		6778A799152B6E0F00D734A3 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6778A798152B6E0F00D734A3 /* EditViewController.xib */; };
 		6778A7A0152B79C200D734A3 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6778A79F152B79C100D734A3 /* RateView.m */; };
+		67790D6A154402DE009DFAC9 /* RateStatesDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 67790D69154402DE009DFAC9 /* RateStatesDataBase.m */; };
+		677A387415448EA900DA8850 /* fullstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 677A387215448EA900DA8850 /* fullstar.png */; };
+		677A387515448EA900DA8850 /* emptystar.png in Resources */ = {isa = PBXBuildFile; fileRef = 677A387315448EA900DA8850 /* emptystar.png */; };
+		677D55D915456818004F08CA /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677D55D815456818004F08CA /* EditViewController.m */; };
 		67D9E7D1152C2FBA00E86AFB /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D9E7D0152C2FBA00E86AFB /* UIImageExtras.m */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		677716C1152ED290009C7BAB /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSActivityView.h; sourceTree = "<group>"; };
+		677716C2152ED290009C7BAB /* DSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSActivityView.m; sourceTree = "<group>"; };
 		6778A732152B47FD00D734A3 /* RateStates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateStates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6778A736152B47FD00D734A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6778A738152B47FD00D734A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -70,15 +72,16 @@
 		6778A774152B489B00D734A3 /* RateStatesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateStatesData.m; sourceTree = SOURCE_ROOT; };
 		6778A776152B4A3200D734A3 /* RateStatesDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateStatesDoc.h; sourceTree = "<group>"; };
 		6778A777152B4A3200D734A3 /* RateStatesDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateStatesDoc.m; sourceTree = "<group>"; };
-		6778A78A152B63C700D734A3 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
-		6778A78B152B63C700D734A3 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
-		6778A78C152B63C700D734A3 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
-		6778A78D152B63C700D734A3 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
 		6778A793152B6AE600D734A3 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
-		6778A794152B6AE600D734A3 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 		6778A798152B6E0F00D734A3 /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
 		6778A79E152B79C100D734A3 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
 		6778A79F152B79C100D734A3 /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		67790D68154402DD009DFAC9 /* RateStatesDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateStatesDataBase.h; sourceTree = "<group>"; };
+		67790D69154402DE009DFAC9 /* RateStatesDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateStatesDataBase.m; sourceTree = "<group>"; };
+		677A387215448EA900DA8850 /* fullstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullstar.png; sourceTree = "<group>"; };
+		677A387315448EA900DA8850 /* emptystar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptystar.png; sourceTree = "<group>"; };
+		677D55D815456818004F08CA /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		678D641615456D5E00394E77 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		67D9E7CF152C2FBA00E86AFB /* UIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtras.h; sourceTree = "<group>"; };
 		67D9E7D0152C2FBA00E86AFB /* UIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtras.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +114,7 @@
 		6778A727152B47FD00D734A3 = {
 			isa = PBXGroup;
 			children = (
+				678D641615456D5E00394E77 /* Default.png */,
 				6778A73C152B47FD00D734A3 /* RateStates */,
 				6778A75E152B47FD00D734A3 /* RateStatesTests */,
 				6778A735152B47FD00D734A3 /* Frameworks */,
@@ -145,19 +149,23 @@
 				6778A774152B489B00D734A3 /* RateStatesData.m */,
 				6778A776152B4A3200D734A3 /* RateStatesDoc.h */,
 				6778A777152B4A3200D734A3 /* RateStatesDoc.m */,
+				67790D68154402DD009DFAC9 /* RateStatesDataBase.h */,
+				67790D69154402DE009DFAC9 /* RateStatesDataBase.m */,
 				67D9E7CF152C2FBA00E86AFB /* UIImageExtras.h */,
 				67D9E7D0152C2FBA00E86AFB /* UIImageExtras.m */,
+				677716C1152ED290009C7BAB /* DSActivityView.h */,
+				677716C2152ED290009C7BAB /* DSActivityView.m */,
 				6778A79E152B79C100D734A3 /* RateView.h */,
 				6778A79F152B79C100D734A3 /* RateView.m */,
 				6778A745152B47FD00D734A3 /* RateStatesAppDelegate.h */,
 				6778A746152B47FD00D734A3 /* RateStatesAppDelegate.m */,
-				6778A748152B47FD00D734A3 /* MainWindow.xib */,
 				6778A793152B6AE600D734A3 /* EditViewController.h */,
-				6778A794152B6AE600D734A3 /* EditViewController.m */,
-				6778A798152B6E0F00D734A3 /* EditViewController.xib */,
+				677D55D815456818004F08CA /* EditViewController.m */,
 				6778A74B152B47FD00D734A3 /* RootViewController.h */,
 				6778A74C152B47FD00D734A3 /* RootViewController.m */,
+				6778A798152B6E0F00D734A3 /* EditViewController.xib */,
 				6778A74E152B47FD00D734A3 /* RootViewController.xib */,
+				6778A748152B47FD00D734A3 /* MainWindow.xib */,
 				6778A792152B63D800D734A3 /* Resources */,
 				6778A73D152B47FD00D734A3 /* Supporting Files */,
 			);
@@ -197,10 +205,8 @@
 		6778A792152B63D800D734A3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6778A78D152B63C700D734A3 /* potatoBugThumb.jpg */,
-				6778A78C152B63C700D734A3 /* potatoBug.jpg */,
-				6778A78B152B63C700D734A3 /* centipedeThumb.jpg */,
-				6778A78A152B63C700D734A3 /* centipede.jpg */,
+				677A387215448EA900DA8850 /* fullstar.png */,
+				677A387315448EA900DA8850 /* emptystar.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -275,11 +281,9 @@
 				6778A741152B47FD00D734A3 /* InfoPlist.strings in Resources */,
 				6778A74A152B47FD00D734A3 /* MainWindow.xib in Resources */,
 				6778A750152B47FD00D734A3 /* RootViewController.xib in Resources */,
-				6778A78E152B63C700D734A3 /* centipede.jpg in Resources */,
-				6778A78F152B63C700D734A3 /* centipedeThumb.jpg in Resources */,
-				6778A790152B63C700D734A3 /* potatoBug.jpg in Resources */,
-				6778A791152B63C700D734A3 /* potatoBugThumb.jpg in Resources */,
 				6778A799152B6E0F00D734A3 /* EditViewController.xib in Resources */,
+				677A387415448EA900DA8850 /* fullstar.png in Resources */,
+				677A387515448EA900DA8850 /* emptystar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,9 +324,11 @@
 				6778A74D152B47FD00D734A3 /* RootViewController.m in Sources */,
 				6778A775152B489B00D734A3 /* RateStatesData.m in Sources */,
 				6778A778152B4A3200D734A3 /* RateStatesDoc.m in Sources */,
-				6778A796152B6AE600D734A3 /* EditViewController.m in Sources */,
 				6778A7A0152B79C200D734A3 /* RateView.m in Sources */,
 				67D9E7D1152C2FBA00E86AFB /* UIImageExtras.m in Sources */,
+				677716C3152ED290009C7BAB /* DSActivityView.m in Sources */,
+				67790D6A154402DE009DFAC9 /* RateStatesDataBase.m in Sources */,
+				677D55D915456818004F08CA /* EditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
